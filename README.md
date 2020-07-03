@@ -1,6 +1,6 @@
 # JPEGtoPNG
 This python script changes every image file in a folder to PNG formate and saves it to a folder.
-You need Python3 installed and Pillow library in order to use this
+You need Python3 installed and Pillow library in order to use this.
 
 1. Place this Python file in the same folder as your folder containing image files. In this case, Pokedex.
 
