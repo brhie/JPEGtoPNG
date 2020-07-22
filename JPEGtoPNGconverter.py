@@ -10,7 +10,7 @@ target_folder = sys.argv[2]
 # check if target folder exists and if not, create it
 if not os.path.exists(target_folder):
     os.makedirs(target_folder)
-    
+
 
 # loop through folder and convert it to png and save it to a target folder
 for filename in os.listdir(image_folder):
