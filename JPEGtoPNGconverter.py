@@ -17,4 +17,7 @@ for filename in os.listdir(image_folder):
     img = Image.open(f"./{image_folder}/{filename}")
     clean_name = os.path.splitext(filename)[0]
     img.save(f"./{target_folder}/{clean_name}.png", "png")
-    print("all done!")
+    print(f"converting {clean_name}...")
+
+    if os.listdir(image_folder)[-1] == filename:
+        print("all done!")
