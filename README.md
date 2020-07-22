@@ -9,4 +9,4 @@ and the second argument is where the changed PNG files are going. When there isn
 
 example below
 
-    $python3 JPEGtoPNGconverter.py Pokedex test
+    python3 JPEGtoPNGconverter.py Pokedex test
